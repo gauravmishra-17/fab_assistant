@@ -1,6 +1,6 @@
-import 'package:fab_assistant/Welcome.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import './DataSearch.dart';
 
 class Home extends StatefulWidget {
   FirebaseAuth user;
@@ -27,6 +27,14 @@ class _HomeState extends State<Home> {
       ),
       body: Column(
         children: <Widget>[
+          RaisedButton(
+              onPressed: () {},
+              child: IconButton(
+                icon: Icon(Icons.search),
+                onPressed: () {
+                  showSearch(context: context, delegate: DataSearch());
+                },
+              )),
           RaisedButton(
             onPressed: LogOut,
             child: Text('Log Out'),
