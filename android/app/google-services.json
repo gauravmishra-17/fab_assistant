@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "407475536654",
+    "firebase_url": "https://fab-assistant.firebaseio.com",
+    "project_id": "fab-assistant",
+    "storage_bucket": "fab-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407475536654:android:8ce7b10ae799f4f6258d5f",
+        "android_client_info": {
+          "package_name": "com.example.fab_assistant"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407475536654-gbj57udv36ni2ha5r3ij71u44sr4bn75.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeTxAHdoTC0Jmn4AvhywnBPPgFMSD1PXg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407475536654-gbj57udv36ni2ha5r3ij71u44sr4bn75.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
