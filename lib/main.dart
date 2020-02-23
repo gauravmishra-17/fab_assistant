@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:fab_assistant/Welcome.dart';
+import 'UserType.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: new Welcome(),
+      home: new UserType(),
     );
   }
 }
